@@ -144,12 +144,13 @@ int main() {
 			case PLANE_C:
 				Plane();
 				break;
-			case AB_C:
+/*			case AB_C:
 				Start_1A2B();
 				break;
 			case TWO_C:
 				Start_2048();
 				break;
+*/
 			case EXIT_C:
 				isbreak = true;
 				break;

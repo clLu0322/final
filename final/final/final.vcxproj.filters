@@ -14,4 +14,32 @@
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Gomoku.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="finalproject.h">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gomoku.h">
+      <Filter>資源檔</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>資源檔</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>資源檔</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

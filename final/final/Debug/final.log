@@ -1,0 +1,21 @@
+﻿plane.obj : error LNK2005: "bool gameOver_Plane" (?gameOver_Plane@@3_NA) 已在 main.obj 中定義過了
+plane.obj : error LNK2005: "struct point plane" (?plane@@3Upoint@@A) 已在 main.obj 中定義過了
+plane.obj : error LNK2005: "struct point enemy" (?enemy@@3Upoint@@A) 已在 main.obj 中定義過了
+plane.obj : error LNK2005: "struct point bullet" (?bullet@@3Upoint@@A) 已在 main.obj 中定義過了
+plane.obj : error LNK2005: "int score_Plane" (?score_Plane@@3HA) 已在 main.obj 中定義過了
+plane.obj : error LNK2005: "double enemy_speed" (?enemy_speed@@3NA) 已在 main.obj 中定義過了
+plane.obj : error LNK2005: "short level" (?level@@3FA) 已在 main.obj 中定義過了
+plane.obj : error LNK2005: "enum Direction_Plane dir_plane" (?dir_plane@@3W4Direction_Plane@@A) 已在 main.obj 中定義過了
+plane.obj : error LNK2005: "enum BulletState bull" (?bull@@3W4BulletState@@A) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "int gameOver" (?gameOver@@3HA) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "int score" (?score@@3HA) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "int tailLength" (?tailLength@@3HA) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "int * tailX" (?tailX@@3PAHA) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "int * tailY" (?tailY@@3PAHA) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "int headX" (?headX@@3HA) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "int headY" (?headY@@3HA) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "int fruitX" (?fruitX@@3HA) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "int fruitY" (?fruitY@@3HA) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "int SPEED" (?SPEED@@3HA) 已在 main.obj 中定義過了
+snake.obj : error LNK2005: "enum Direction dir" (?dir@@3W4Direction@@A) 已在 main.obj 中定義過了
+C:\Users\howar\Desktop\final\final\Debug\final.exe : fatal error LNK1169: 找到有一或多個已定義的符號
