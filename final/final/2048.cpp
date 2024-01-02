@@ -1,6 +1,12 @@
 #include"finalproject.h"
 #include"2048.h"
 
+int board[SIZE][SIZE];
+int gameOver_2048 = 0;
+int tmp[SIZE][SIZE];
+int i, j;
+int ctr;
+
 enum direction_2048 { STOP_2048 = 0, UP_2048, LEFT_2048, DOWN_2048, RIGHT_2048 };
 enum direction_2048 dir_2048 = STOP_2048;
 

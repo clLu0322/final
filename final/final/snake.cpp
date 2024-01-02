@@ -2,6 +2,14 @@
 #include"finalproject.h"
 #include"snake.h"
 
+int gameOver;
+int score;
+int tailLength;
+int tailX[100], tailY[100];
+int headX, headY;
+int fruitX, fruitY;
+int SPEED = 100;
+
 
 void Setup_snake() {
     gameOver = 0;

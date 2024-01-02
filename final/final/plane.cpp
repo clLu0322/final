@@ -1,7 +1,13 @@
 #include"finalproject.h"
 #include"plane.h"
 
-
+bool gameOver_Plane;
+point plane;
+point enemy;
+point bullet;
+int score_Plane;
+double enemy_speed;
+short level;
 
 void Setup_plane() {
 	srand(time(NULL));
