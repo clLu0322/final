@@ -1,2 +1,6 @@
 /.vs/
 final/.vs/
+*.obj
+*.tlog
+*.idb
+*.pdb
