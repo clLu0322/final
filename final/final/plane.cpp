@@ -16,6 +16,7 @@ void Setup_plane() {
 	enemy_speed = 0.12;
 	level = 1;
 }
+
 void Draw_plane() {
 	system("cls");
 
