@@ -1,4 +1,26 @@
-﻿plane.obj : error LNK2005: "bool gameOver_Plane" (?gameOver_Plane@@3_NA) 已在 main.obj 中定義過了
+﻿  1A2B.cpp
+C:\Users\howar\Desktop\final\final\final\1A2B.cpp(6,12): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+  2048.cpp
+  2048.h
+  finalproject.h
+  Gomoku.cpp
+  main.cpp
+C:\Users\howar\Desktop\final\final\final\2048.h(2,1): warning C4005: 'SIZE': 巨集重複定義
+C:\Users\howar\Desktop\final\final\final\GoMoku.h(5,1): message : 請參閱 'SIZE' 之前的定義
+  plane.cpp
+C:\Users\howar\Desktop\final\final\final\plane.cpp(7,12): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\Users\howar\Desktop\final\final\final\plane.cpp(126,14): warning C4244: '+=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  snake.cpp
+  正在產生程式碼...
+C:\Users\howar\Desktop\final\final\final\Gomoku.cpp(59): warning C4715: 'Symbol': 不是所有控制路徑都傳回值
+Debug\2048.obj : warning LNK4042: 指定物件超過一次，已忽略多餘的部分
+main.obj : error LNK2005: "int (* board)[4]" (?board@@3PAY03HA) 已在 2048.obj 中定義過了
+main.obj : error LNK2005: "int gameOver_2048" (?gameOver_2048@@3HA) 已在 2048.obj 中定義過了
+main.obj : error LNK2005: "int (* tmp)[4]" (?tmp@@3PAY03HA) 已在 2048.obj 中定義過了
+main.obj : error LNK2005: "int i" (?i@@3HA) 已在 2048.obj 中定義過了
+main.obj : error LNK2005: "int j" (?j@@3HA) 已在 2048.obj 中定義過了
+main.obj : error LNK2005: "int ctr" (?ctr@@3HA) 已在 2048.obj 中定義過了
+plane.obj : error LNK2005: "bool gameOver_Plane" (?gameOver_Plane@@3_NA) 已在 main.obj 中定義過了
 plane.obj : error LNK2005: "struct point plane" (?plane@@3Upoint@@A) 已在 main.obj 中定義過了
 plane.obj : error LNK2005: "struct point enemy" (?enemy@@3Upoint@@A) 已在 main.obj 中定義過了
 plane.obj : error LNK2005: "struct point bullet" (?bullet@@3Upoint@@A) 已在 main.obj 中定義過了

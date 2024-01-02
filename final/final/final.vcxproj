@@ -123,6 +123,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1A2B.cpp" />
+    <ClCompile Include="2048.cpp" />
+    <ClCompile Include="2048.h" />
     <ClCompile Include="finalproject.h" />
     <ClCompile Include="Gomoku.cpp" />
     <ClCompile Include="main.cpp" />
@@ -130,6 +133,7 @@
     <ClCompile Include="snake.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="1A2B.h" />
     <ClInclude Include="Gomoku.h" />
     <ClInclude Include="plane.h" />
     <ClInclude Include="snake.h" />

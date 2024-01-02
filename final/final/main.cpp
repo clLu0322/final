@@ -2,6 +2,8 @@
 #include"GoMoku.h"
 #include"snake.h"
 #include"plane.h"
+#include"1A2B.h"
+#include"2048.h"
 
 
 enum CHOICE { SNAKE_C, GOMOKU_C, PLANE_C, AB_C, TWO_C, EXIT_C };
@@ -144,13 +146,13 @@ int main() {
 			case PLANE_C:
 				Plane();
 				break;
-/*			case AB_C:
+			case AB_C:
 				Start_1A2B();
 				break;
 			case TWO_C:
 				Start_2048();
 				break;
-*/
+
 			case EXIT_C:
 				isbreak = true;
 				break;
